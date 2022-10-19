@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 20px;
+}
+
+.header__anchor--activo{
+    color: #242424;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration-line: underline;
+}
+
+/* INICIO */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-image: linear-gradient(to left, lightblue, #242424);
+}
+
+.header__logo{
+    width: 160px;
+    height: 160px;
+}
+
+.header__list{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.header__anchor{
+    color: #242424;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: solid;
+    font-weight: bold;
+}
+
+.header__item{
+    display: inline-block;
+    padding: 0.5rem 0.5rem;
+    margin: 0.5rem;
+}
+
+.hero{
+    padding: 1rem;
+}
+
+.hero__heading{
+    color: #242424;  
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;  
+}
+
+.hero__slogan{
+    color: #844B64;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main__foto{
+    display: flex;
+    justify-content: center;
+}
+
+.main__btn{
+    display: flex;
+    justify-content: center;
+    color: #242424;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: solid;  
+    padding: 2rem;
+    font-weight: bold;
+}
+
+.main__btn:hover{
+    font-size: 2rem;
+    color: #844B64;
+}
+
+.footer{
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer__icono-ig{
+    width: 45px;
+    height: 45px;
+    padding: 0.2rem;
+    margin: 1rem;
+
+}
+.footer__icono-tw{
+    width: 45px;
+    height: 45px;
+    padding: 0.2rem;
+    margin: 1rem;
+}
+.footer__icono-tik{
+    width: 45px;
+    height: 45px;
+    padding: 0.2rem;
+    margin: 1rem;
+}
+
+/* NOSOTROS */
+
+.h1{
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+    margin: 0.5rem;
+    font-family: 'Lato', sans-serif;  
+}
+
+.nosotros{
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 3rem 3rem;
+}
+
+.color-grey{
+    color:#242424; 
+}
+
+.main__fotonosotros{
+    height: 640px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main__matiasuno{
+    width: 500px;
+    height: 640px;
+}
+
+.main__matiasdos{
+    width: 250px;
+    height: 320px; 
+}
+
+.main__matiastres{
+    width: 250px;
+    height: 320px;
+}
+
+/* PROYECTOS */
+
+.main__proyectos{
+    width: 100%;
+}
+
+.main__proyectos--uno{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main__proyectos--dos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__proyectos--tres{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main__imagen{
+    display: flex;
+    width: 33%;
+}
+
+.main__imagen--tres{
+    height: 445px;
+    width: 33%;
+}
+
+/* PROPUESTA */
+
+.block{
+    width: 100%;
+    background-color: #6B8188;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block__video{
+    width: 500px;
+    height: 640px;
+}
+
+.foto__under{
+    width: 280px;
+    height: 280px;
+}
+
+/* CONTACTO */
+
+.imagenFondo{
+    background-image: url("../../imagenes/contacto.jpg");
+    background-size: 700px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.formulario{
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+.main__section{
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.main__formulario{
+    padding: 0.5rem;
+    margin: 0.5rem;
+
+}
+
+.main__color{
+    padding: 0.2rem;
+    margin: 1rem;
+}
+
+.main__marca{
+    padding: 0.2rem;
+    margin: 1rem;
+}
+
+.main__customFoto{
+    padding: 0.7rem;
+    margin: 1rem;
+}
+
+.main__usuario{
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.btn__reset{
+    padding: 0.2rem;
+    margin: 1rem;
+}
+
+.btn__submit{
+    padding: 0.2rem;
+    margin: 1rem;
+}
+
+.strong{
+    text-decoration: underline;
+    color: #333333;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem
+}
+
+.foto-custom{
+    color: #333333;
+    font-size: 0.7rem;
+}
+
+/*ESTILO TABLET*/
+
+@media screen and (max-width: 768px){
+
+/*INICIO*/
+    
+    .header{
+        display: block;
+    }
+    .header__anchor{
+        color: black;
+    }
+    .header__anchor--activo{
+        color: black;
+    }
+    .main__foto{
+        width: 100%;
+    }
+    .custompage{
+        width: 100%;
+    }
+    
+/*NOSOTROS*/
+    
+    .h1{
+        margin-top: 2rem;
+    }
+    .main__fotonosotros{
+        height: 500px;
+    }
+    
+    .main__matiasdos{
+        width: 200px;
+        height: 255px;
+    
+    }
+    .main__matiasuno{
+        width: 365px;
+        height: 470px;
+    }
+    .main__matiastres{
+        width: 200px;
+        height: 255px;
+    }
+    
+/*PROYECTOS*/
+    
+    
+/*PROPUESTA*/
+    
+    .block{
+        background-color: white;
+    }  
+    .block__video{
+        width: 315px;
+        height: 400px;
+        margin: 2rem;
+    }
+    .foto__under{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .main__imagen--tres{
+        height: 253px;
+    }
+    
+/*CONTACTO*/
+    
+    .imagenFondo{
+        background-image: url("../../imagenes/Sin\ título-2.png");
+        background-size: 400px;
+    }
+
+
+/*ESTILOS MOBILE*/
+
+@media screen and (max-width: 320px){
+
+/*INICIO*/   
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__logo{
+        width: 100px;
+        height: 100px;
+        margin-right: 10rem;
+    }
+    .header__list {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .header__item{
+        font-size: 0.8rem;
+        margin: 5px;
+        padding: 0%;
+        text-align: center;
+    }
+    .hero__heading{
+        font-size: 2rem;
+        padding: 2px;
+    }
+    .hero__slogan{
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+    .main__foto{
+        width: 100%;
+    }
+    .custompage{
+        width: 100%;
+    }
+
+/*NOSOTROS*/
+
+    .hero__heading{
+        font-size: 1.5rem;
+    }
+    .main__fotonosotros{
+        display: block;
+        height: 650px;
+    }
+    .main__matiasdos{
+        width: 250px;
+        height: 300px;
+        padding: 1rem;
+        margin-left: 35px;
+    }
+    .main__matiasuno{
+        width: 250px;
+        height: 300px;
+        margin-left: 35px;
+    }
+    .main__matiastres{
+        width: 250px;
+        height: 300px;
+        padding: 1rem;
+        margin-left: 35px;
+    }
+    .nosotros{
+        margin-top: 14rem;
+        padding: 1rem;
+    }
+
+/*PROYECTOS*/
+
+    .main__proyectos--uno{
+        flex-direction: column;
+    }
+    .main__proyectos--dos{
+        flex-direction: column;
+    }
+    .main__proyectos--tres{
+        flex-direction: column;
+    }
+    .main__imagen{
+        width: 315px;
+        height: 400px;
+    }
+
+/*PROPUESTA*/
+
+    .block{
+        background-color: white;
+        flex-direction: column;
+    }
+    .block__video{
+        width: 315px;
+        height: 400px;
+        margin: 2rem;
+    }
+    .foto__under{
+        margin: 1rem;
+    }
+
+    .main__imagen--tres{
+        width: 100%;
+        height: auto;
+    }
+
+/*CONTACTO*/
+    
+    .imagenFondo{
+        background-image: none;
+    }        
+}
+

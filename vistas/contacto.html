@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="shorcut icon" href="../imagenes/logo fondo negro.jpeg"">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="../estilos/css/estilos.css">
+</head>
+
+<body>
+   <header class="header">
+      <a href="../index.html"><img class="header__logo" src="../imagenes/logo png.png" alt="logo"></a>
+
+      <nav class="header__nav">
+
+         <ul class="header__list">
+
+            <li class="header__item"><a class="header__anchor--activo" href="#">CONTACTO</a></li>  
+
+            <li class="header__item"><a class="header__anchor" href="./porpuesta_informativa.html">PROPUESTA</a></li>
+
+            <li class="header__item"><a class="header__anchor" href="./proyectos.html">PROYECTOS</a></li>
+
+            <li class="header__item"><a class="header__anchor" href="./nosotros.html">NOSOTROS</a></li> 
+
+            <li class="header__item"><a class="header__anchor" href="../index.html">INICIO</a></li> 
+
+         </ul>
+
+      </nav>
+
+   </header>
+
+      <hr>
+
+<main class="formulario">
+   <div class="imagenFondo">
+
+   <form action="" method="get" enctype="text/plain">
+
+   <section class="main__section">
+         
+   <div>
+      <label class="main__formulario" for="name">NOMBRE</label>
+      <input type="text" name="name" id="name" required>
+   </div>
+
+   <div>
+      <label class="main__formulario" for="email">EMAIL</label>
+      <input type="email" name="email" id="email" required>
+   </div>
+
+   <div>
+      <label class="main__formulario" for="age">EDAD</label>
+      <input type="number" name="age" id="age" min="18" max="100" step="5">
+   </div>
+
+   <div>
+      <label class="main__formulario" for="date">FECHA DE NACIMIENTO</label>
+      <input type="date" name="date" id="date" min="2002-19-09">
+   </div>
+
+   <div>
+      <strong class="strong"><em>GENERO</em></strong>
+   </div>
+
+   <div>
+      <label class="main__formulario" for="male">MASCULINO</label>
+      <input type="radio" name="gender" id="male" value="male">
+   </div>
+
+   <div>
+      <label class="main__formulario" for="famale">FEMENINO</label>
+      <input type="radio" name="gender" id="famale" value="famale">
+   </div>
+
+   <div>
+      <strong class="strong"><em>TELEFONO</em></strong>
+   </div>
+
+   <div>
+      <label class="main__formulario" for="phone"></label>
+      <input type="tel" name="phone" id="phone">
+   </div>
+
+   </section>
+
+   <section class="main__color">
+   <div>
+      <strong class="strong"><em>COLOR DE PREFERENCIA</em></strong>
+   </div>
+
+   <div>
+      <label class="main__formulario" for="blue">AZUL</label>
+      <input type="checkbox" name="blue" id="blue">
+   </div>
+
+   <div>
+      <label class="main__formulario" for="red">ROJO</label>
+      <input type="checkbox" name="red" id="red">
+   </div>
+
+   <div>
+      <label class="main__formulario" for="yellow">AMARILLO</label>
+      <input type="checkbox" name="yellow" id="yellow">
+   </div>
+
+   <div>
+      <label class="main__formulario" for="orange">NARANJA</label>
+      <input type="checkbox" name="orange" id="orange">
+   </div>
+
+   <div>
+      <label class="main__formulario" for="green">VERDE</label>
+      <input type="checkbox" name="green" id="green">
+   </div>
+
+   <div>
+      <label class="main__formulario" for="violet">VIOLETA</label>
+      <input type="checkbox" name="violet" id="violet">
+   </div>
+   </section>  
+
+
+   <section class="main__marca">
+   <div>
+      <strong class="strong"><em>MARCA DE ZAPATILLAS</em></strong>
+   </div>
+
+   <div>
+      <label class="main__formulario" for="SneakerBrand"></label>
+      <select name="SneakerBrand" id="SneackerBrand">
+         <option value="Adidas" label="Adidas"></option>
+         <option value="Nike" label="Nike"></option>
+         <option value="NewBalance" label="New Balance"></option>
+         <option value="Converse" label="Converse"></option>
+         <option value="Puma" label="Puma"></option>
+         <option value="Vans" label="Vans"></option>
+      </select>
+   </div>
+   </section>
+
+
+   <section class="main__customFoto">
+   <div>
+      <label class="foto-custom" for="file"><em>DEJANOS LA FOTO DE LAS ZAPAS QUE TE GUSTARIA CUSTOMIZAR</em></label>
+   </div>
+
+   <div>
+      <input type="file" name="file" id="file">
+   </div>
+   </section>
+
+
+   <section class="main__usuario">
+   <div>
+      <strong class="strong"><em>USUARIO</em></strong>
+   </div>
+
+   <div>
+      <label for="username"></label>
+      <input type="username" name="username" id="username" required>
+   </div>
+
+   <div>
+      <strong class="strong"><em>CONTRASEÑA</em></strong>
+   </div>
+
+   <div>
+      <label for="password"></label>
+      <input type="password" name="password" id="password" required>
+   </div>
+   </section>
+
+
+   <input class="btn__reset" type="reset" value="Reiniciar Fromulario">
+   <input class="btn__submit" type="submit" value="Enviar Formulario">
+
+   </form> 
+</div>
+</main>   
+
+<!--PIE DE PAGINA-->
+
+<footer class="footer">
+   <article>
+       <div class="footer__inconos">
+         <a href="https://www.instagram.com/flashxdesign/">
+            <img class="footer__icono-ig" src="../imagenes/logo instagram.png" alt="instagram">
+        </a>
+        <a href="https://www.twitch.tv/flashxdesign">
+            <img class="footer__icono-tw" src="../imagenes/logo twitch.png" alt="twitch">
+        </a>         
+        <a href="https://www.tiktok.com/@flashxdesign">
+            <img class="footer__icono-tik" src="../imagenes/logo tiktok.png" alt="tiktok">
+           </a>
+       </div>
+   </article>
+</footer>
+</div>
+
+<script>
+   AOS.init();
+ </script>
+
+</body>
+</html>
