@@ -19,7 +19,7 @@
 
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: baseline;
     background-image: linear-gradient(to left, lightblue, #242424);
 }
@@ -32,6 +32,8 @@
 .header__list{
     display: flex;
     flex-direction: row-reverse;
+    margin-bottom: 0rem;
+    padding-left: 12rem;
 }
 
 .header__anchor{

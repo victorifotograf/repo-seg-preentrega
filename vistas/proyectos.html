@@ -25,9 +25,18 @@
 <body>
 
     <header class="header">
-        <a href="../index.html"><img class="header__logo" src="../imagenes/logo png.png" alt="logo"></a>
 
-        <nav class="header__nav">
+        <nav class="navbar navbar-expand-lg">
+
+            <div class="container-fluid">        
+
+                <a href="../index.html"><img class="header__logo" src="../imagenes/logo png.png" alt="logo"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
 
             <ul class="header__list">
 
@@ -45,11 +54,13 @@
 
             </ul> 
 
+            </div>
+            </div>
+            
         </nav>
 
     </header> 
 
-    <hr>
 
     <main>
        <section class="main__proyectos">
