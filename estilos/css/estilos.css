@@ -279,6 +279,36 @@
     font-size: 0.7rem;
 }
 
+/*ESTILO LAPTOP*/
+
+@media screen and (max-width: 1024px){
+
+    /*INICIO*/
+
+    .header__logo{
+        margin-right: 5rem;
+    }
+    .header__list{
+        display: flex;
+        justify-content: center;
+        padding-left: 0rem;
+        width: 100%;
+    }
+    .main__foto{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /*PROYECTO*/
+
+    .main__imagen--tres{
+        height: 338px;
+        width: 33%;
+    }
+
+}
+
 /*ESTILO TABLET*/
 
 @media screen and (max-width: 768px){
@@ -289,7 +319,7 @@
         display: block;
     }
     .header__logo{
-        margin-right: 25rem;
+        margin-right: 29rem;
     }
     .header__anchor{
         color: black;
@@ -308,9 +338,6 @@
     
     .h1{
         margin-top: 2rem;
-    }
-    .header__list{
-        flex-wrap: wrap-reverse;
     }
     .main__fotonosotros{
         height: 500px;
