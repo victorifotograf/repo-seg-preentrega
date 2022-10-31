@@ -385,14 +385,14 @@
         background-image: url("../../imagenes/Sin\ título-2.png");
         background-size: 400px;
     }
-
+}
 
 /*ESTILOS MOBILE*/
 
 @media screen and (max-width: 320px){
 
 /*INICIO*/   
-    .
+    
     .header{
         flex-direction: column;
         align-items: center;
@@ -499,5 +499,5 @@
     
     .imagenFondo{
         background-image: none;
-    }        
-} 
+    }
+}
