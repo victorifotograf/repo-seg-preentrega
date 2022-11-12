@@ -1,0 +1,38 @@
+.main{
+
+    /* PROYECTOS */
+
+    &__proyectos{
+    width: 100%;
+    }
+
+    &__proyectos--uno{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+    &__proyectos--dos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+    &__proyectos--tres{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    }
+
+    &__imagen{
+    display: flex;
+    width: 33%;
+    }
+
+    &__imagen--tres{
+    height: 445px;
+    width: 33%;
+    }
+}

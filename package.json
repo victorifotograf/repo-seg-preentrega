@@ -1,0 +1,24 @@
+{
+  "name": "paquete_flashdesign_preentrega3",
+  "version": "1.0.0",
+  "description": "Un paquete de SASS Page FlashDesign Pre Entrega 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorifotograf/repo-seg-preentrega.git"
+  },
+  "author": "Victoria Bascuas Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorifotograf/repo-seg-preentrega/issues"
+  },
+  "homepage": "https://github.com/victorifotograf/repo-seg-preentrega#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

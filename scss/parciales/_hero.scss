@@ -1,0 +1,18 @@
+.hero{
+
+    padding: 1rem;
+
+    &__h1{
+        color: #242424;  
+        font-size: 3rem;
+        text-align: center;
+        font-family: 'Lato', sans-serif;  
+    }
+
+    &__slogan{
+        color: #844B64;
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Ubuntu', sans-serif;
+    }
+}

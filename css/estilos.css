@@ -1,0 +1,94 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  background-image: linear-gradient(to left, lightblue, #242424);
+}
+.header__anchor--activo {
+  color: #242424;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-decoration-line: underline;
+}
+.header__logo {
+  width: 160px;
+  height: 160px;
+}
+.header__list {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 0rem;
+  padding-left: 12rem;
+}
+.header__anchor {
+  color: #242424;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: solid;
+  font-weight: bold;
+}
+.header__item {
+  display: inline-block;
+  padding: 0.5rem 0.5rem;
+  margin: 0.5rem;
+}
+
+.hero {
+  padding: 1rem;
+}
+.hero__heading {
+  color: #242424;
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+.hero__slogan {
+  color: #844B64;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.main__foto {
+  display: flex;
+  justify-content: center;
+}
+.main__btn {
+  display: flex;
+  justify-content: center;
+  color: #242424;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: solid;
+  padding: 2rem;
+  font-weight: bold;
+}
+.main__btn:hover {
+  font-size: 2rem;
+  color: #844B64;
+}
+
+.footer {
+  background-color: #242424;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.footer__icono-ig {
+  width: 45px;
+  height: 45px;
+  padding: 0.2rem;
+  margin: 1rem;
+}
+.footer__icono-tw {
+  width: 45px;
+  height: 45px;
+  padding: 0.2rem;
+  margin: 1rem;
+}
+.footer__icono-tik {
+  width: 45px;
+  height: 45px;
+  padding: 0.2rem;
+  margin: 1rem;
+}
+
+/*# sourceMappingURL=estilos.css.map */

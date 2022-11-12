@@ -1,0 +1,27 @@
+.footer{
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    &__icono-ig{
+        width: 45px;
+        height: 45px;
+        padding: 0.2rem;
+        margin: 1rem;
+    }
+
+    &__icono-tw{
+        width: 45px;
+        height: 45px;
+        padding: 0.2rem;
+        margin: 1rem;
+    }
+
+    &__icono-tik{
+        width: 45px;
+        height: 45px;
+        padding: 0.2rem;
+        margin: 1rem;
+    }
+}

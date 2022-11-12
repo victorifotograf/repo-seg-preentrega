@@ -1,0 +1,23 @@
+/* PROPUESTA */
+
+.main{
+
+    &__block{
+        width: 100%;
+        background-color: #6B8188;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    &__block--video{
+        width: 500px;
+        height: 640px;
+    }
+    
+    &__fotounder{
+        width: 280px;
+        height: 280px;
+    }
+}
+

@@ -1,0 +1,58 @@
+/* CONTACTO */
+
+.main{
+
+    &__imagenFondo{
+        background-image: url("../../imagenes/contacto.jpg");
+        background-size: 700px;
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+    
+    &__formulario{
+        color: black;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    &__section{
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+    
+    &__formulario{
+        margin: 0.5rem;
+    }
+    
+    &__color{
+        padding: 0.2rem;
+        margin: 1rem;
+    }
+    
+    &__marca{
+        padding: 0.2rem;
+        margin: 1rem;
+    }
+    
+    &__customFoto{
+        padding: 0.7rem;
+        margin: 1rem;
+    }
+    
+    &__usuario{
+        padding: 0.5rem;
+        margin: 1rem;
+    }
+
+    &__strong{
+        text-decoration: underline;
+        color: #333333;
+        font-size: 1rem;
+        padding: 0.5rem;
+        margin: 0.5rem
+    }
+    
+    &__foto-custom{
+        color: #333333;
+        font-size: 1rem;
+    }
+}
