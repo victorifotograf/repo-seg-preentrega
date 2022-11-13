@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 20px;
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -35,7 +45,7 @@
 .hero {
   padding: 1rem;
 }
-.hero__heading {
+.hero__h1 {
   color: #242424;
   font-size: 3rem;
   text-align: center;
@@ -87,6 +97,147 @@
 .footer__icono-tik {
   width: 45px;
   height: 45px;
+  padding: 0.2rem;
+  margin: 1rem;
+}
+
+/* NOSOTROS */
+.main__h1 {
+  text-align: center;
+  padding: 0.5rem 0.5rem;
+  margin: 0.5rem;
+  font-family: "Lato", sans-serif;
+}
+.main__nosotros {
+  color: black;
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding: 3rem 3rem;
+}
+.main .color-grey {
+  color: #242424;
+}
+.main__fotonosotros {
+  height: 640px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main__matiasuno {
+  width: 500px;
+  height: 640px;
+}
+.main__matiasdos {
+  width: 250px;
+  height: 320px;
+}
+.main__matiastres {
+  width: 250px;
+  height: 320px;
+}
+
+.main {
+  /* PROYECTOS */
+}
+.main__proyectos {
+  width: 100%;
+}
+.main__proyectos--uno {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.main__proyectos--dos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.main__proyectos--tres {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+.main__imagen {
+  display: flex;
+  width: 33%;
+}
+.main__imagen--tres {
+  height: 445px;
+  width: 33%;
+}
+
+/* PROPUESTA */
+.main__block {
+  width: 100%;
+  background-color: #6B8188;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main__block--video {
+  width: 500px;
+  height: 640px;
+}
+.main__fotounder {
+  width: 280px;
+  height: 280px;
+}
+
+/* CONTACTO */
+.main__imagenFondo {
+  background-image: url("../../imagenes/contacto.jpg");
+  background-size: 700px;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.main__formulario {
+  color: black;
+  font-family: "Lato", sans-serif;
+}
+.main__section {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.main__formulario {
+  margin: 0.5rem;
+}
+.main__color {
+  padding: 0.2rem;
+  margin: 1rem;
+}
+.main__marca {
+  padding: 0.2rem;
+  margin: 1rem;
+}
+.main__customFoto {
+  padding: 0.7rem;
+  margin: 1rem;
+}
+.main__usuario {
+  padding: 0.5rem;
+  margin: 1rem;
+}
+.main__strong {
+  text-decoration: underline;
+  color: #333333;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.main__foto-custom {
+  color: #333333;
+  font-size: 1rem;
+}
+
+/* CONTACTO */
+.btn__reset {
+  padding: 0.2rem;
+  margin: 1rem;
+}
+.btn__submit {
   padding: 0.2rem;
   margin: 1rem;
 }
