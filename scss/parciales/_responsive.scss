@@ -1,0 +1,295 @@
+/*ESTILO LAPTOP*/
+
+@media screen and (max-width: 1024px){
+
+/*INICIO*/
+
+.header{
+
+    &__logo{
+        margin-right: 5rem;
+    }
+    &__list{
+        display: flex;
+        justify-content: center;
+        padding-left: 0rem;
+        width: 100%;
+    }
+}
+
+.main{
+
+    &__foto{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__imagen--tres{
+        height: 338px;
+        width: 33%;
+    }
+
+}
+
+}
+
+/*ESTILO TABLET*/
+
+@media screen and (max-width: 768px){
+    
+/*INICIO*/
+
+.header{
+
+    display: block;
+
+    &__logo{
+        margin-right: 29rem;
+    }
+    &__anchor{
+        color: black;
+    }
+    &__anchor--activo{
+        color: black;
+    }    
+}
+
+.main{
+
+    &__foto{
+        width: 100%;
+    }
+
+    &__fotonosotros{
+        height: 500px;
+    }
+    
+    &__matiasdos{
+        width: 200px;
+        height: 255px;
+    }
+
+    &__matiasuno{
+        width: 365px;
+        height: 470px;
+    }
+
+    &__matiastres{
+        width: 200px;
+        height: 255px;
+    }    
+
+    &__block{
+        background-color: white;
+    }  
+
+    &__block--video{
+        width: 200px;
+        height: 400px;
+        margin: 2rem;
+    }
+
+    &__fotounder{
+        width: 200px;
+        height: 200px;
+    }
+    
+    &__imagen--tres{
+        height: 253px;
+    } 
+    
+    &__imagenFondo{
+
+        background-image: url("../../imagenes/Sin\ título-2.png");
+        background-size: 200px;   
+    }
+}
+
+.custompage{
+
+    width: 100%;
+    
+}
+
+.h1{
+
+    margin-top: 2rem;    
+}
+  
+}
+
+
+/*ESTILOS MOBILE*/
+
+@media screen and (max-width: 320px) {
+    
+/*INICIO*/ 
+
+.header{
+
+    flex-direction: column;
+    align-items: center;
+    
+    &__logo{
+        width: 120px;
+        height: 120px;
+        margin-right: 9rem;
+    }
+    &__list {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 0rem;
+    }
+    &__item{
+        font-size: 0.8rem;
+        margin: 5px;
+        padding: 0%;
+        text-align: center;
+    }
+}
+
+.hero{
+
+    &__heading{
+        font-size: 2rem;
+        padding: 2px;
+    }
+    &__slogan{
+        font-size: 1.5rem;
+        padding: 5px;
+    }   
+}
+
+.main{
+
+    &__foto{
+        width: 100%;
+    }    
+}
+
+.custompage{
+    width: 100%;
+}
+
+/*NOSOTROS*/
+
+.hero{
+
+    &__heading{
+        font-size: 2rem;
+        padding: 2px;
+    }
+    &__slogan{
+        font-size: 1.5rem;
+        padding: 5px;
+    }    
+}
+
+.main{
+
+    &__foto{
+        width: 100%;
+    }    
+}
+
+.custompage{
+    width: 100%;
+}
+
+/*NOSOTROS*/
+
+.hero{
+
+    &__heading{
+        font-size: 1.5rem;
+    }    
+}
+
+.main{
+
+    &__fotonosotros{
+        display: block;
+        height: 650px;
+    }
+    &__matiasdos{
+        width: 250px;
+        height: 300px;
+        padding: 1rem;
+        margin-left: 35px;
+    }
+    &__matiasuno{
+        width: 250px;
+        height: 300px;
+        margin-left: 35px;
+    }
+    &__matiastres{
+        width: 250px;
+        height: 300px;
+        padding: 1rem;
+        margin-left: 35px;
+    }    
+}
+
+.nosotros{
+    margin-top: 14rem;
+    padding: 1rem;
+}
+
+/*PROYECTOS*/
+
+.main{
+
+    &__proyectos{
+        flex-direction: column;
+    }
+
+    &__proyectos--uno{
+        flex-direction: column;
+    }
+    &__proyectos--dos{
+        flex-direction: column;
+    }
+    &__proyectos--tres{
+        flex-direction: column;
+    }
+    &__imagen{
+        width: 315px;
+        height: 400px;
+    }    
+}
+
+/*PROPUESTA*/
+
+.main{
+   
+    &__block{
+        background-color: white;
+        flex-direction: column; 
+    }
+
+    &__block--video{
+        width: 315px;
+        height: 400px;
+        margin: 2rem;
+        }    
+    
+     &__fotounder{
+        margin: 1rem;
+        }
+       
+}
+
+
+/*CONTACTO*/
+
+.main{
+
+    &__imagenFondo{
+        background-image: none;
+    }
+}
+
+}
+
+
