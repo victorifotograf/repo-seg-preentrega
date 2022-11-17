@@ -1,13 +1,6 @@
 /* CONTACTO */
 
 .main{
-
-    &__imagenFondo{
-        background-image: url("../../imagenes/contacto.jpg");
-        background-size: 700px;
-        background-position: right;
-        background-repeat: no-repeat;
-    }
     
     &__formulario{
         color: black;
@@ -55,4 +48,5 @@
         color: #333333;
         font-size: 1rem;
     }
+    
 }
