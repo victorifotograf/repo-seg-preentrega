@@ -243,7 +243,6 @@
 
 /*ESTILO LAPTOP*/
 @media screen and (max-width: 1024px) {
-  /*INICIO*/
   .header__logo {
     margin-right: 5rem;
   }
@@ -265,7 +264,6 @@
 }
 /*ESTILO TABLET*/
 @media screen and (max-width: 768px) {
-  /*INICIO*/
   .header {
     display: block;
   }
@@ -300,7 +298,7 @@
     background-color: white;
   }
   .main__block--video {
-    width: 200px;
+    width: 300px;
     height: 400px;
     margin: 2rem;
   }
@@ -315,11 +313,11 @@
     background-image: url("../../imagenes/Sin título-2.png");
     background-size: 200px;
   }
+  .main__h1 {
+    margin-top: 1rem;
+  }
   .custompage {
     width: 100%;
-  }
-  .h1 {
-    margin-top: 2rem;
   }
 }
 /*ESTILOS MOBILE*/
@@ -346,8 +344,7 @@
     text-align: center;
   }
   .hero__heading {
-    font-size: 2rem;
-    padding: 2px;
+    font-size: 1.5rem;
   }
   .hero__slogan {
     font-size: 1.5rem;
@@ -355,28 +352,6 @@
   }
   .main__foto {
     width: 100%;
-  }
-  .custompage {
-    width: 100%;
-  }
-  /*NOSOTROS*/
-  .hero__heading {
-    font-size: 2rem;
-    padding: 2px;
-  }
-  .hero__slogan {
-    font-size: 1.5rem;
-    padding: 5px;
-  }
-  .main__foto {
-    width: 100%;
-  }
-  .custompage {
-    width: 100%;
-  }
-  /*NOSOTROS*/
-  .hero__heading {
-    font-size: 1.5rem;
   }
   .main__fotonosotros {
     display: block;
@@ -399,11 +374,10 @@
     padding: 1rem;
     margin-left: 35px;
   }
-  .nosotros {
-    margin-top: 14rem;
+  .main__nosotros {
+    margin-top: 13rem;
     padding: 1rem;
   }
-  /*PROYECTOS*/
   .main__proyectos--uno {
     flex-direction: column;
   }
@@ -414,10 +388,13 @@
     flex-direction: column;
   }
   .main__imagen {
-    width: 315px;
+    width: 100%;
     height: 400px;
   }
-  /*PROPUESTA*/
+  .main__imagen--tres {
+    width: 100%;
+    height: 330px;
+  }
   .main__block {
     background-color: white;
     flex-direction: column;
@@ -430,9 +407,14 @@
   .main__fotounder {
     margin: 1rem;
   }
-  /*CONTACTO*/
+  .main__archivo {
+    font-size: 0.6rem;
+  }
   .main__imagenFondo {
     background-image: none;
+  }
+  .custompage {
+    width: 100%;
   }
 }
 
