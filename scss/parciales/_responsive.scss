@@ -152,7 +152,6 @@
 
         &__h1{
             text-align: center;
-            margin-left: 2rem;
         }
 
         &__foto{
@@ -169,18 +168,15 @@
             width: 250px;
             height: 300px;
             padding: 1rem;
-            margin-left: 35px;
         }
         &__matiasuno{
             width: 250px;
             height: 300px;
-            margin-left: 35px;
         }
         &__matiastres{
             width: 250px;
             height: 300px;
             padding: 1rem;
-            margin-left: 35px;
         }
         &__nosotros{
             margin-top: 10rem;
@@ -280,8 +276,8 @@
     }   
     
     &__fotonosotros{
-        display: block;
-        height: 650px;
+        display: flex;
+        margin-right: 1.5rem;
     }
     &__matiasdos{
         width: 250px;
@@ -301,7 +297,6 @@
         margin-left: 35px;
     }
     &__nosotros{
-        margin-top: 13rem;
         padding: 1rem;
     }
 

@@ -341,7 +341,6 @@
   }
   .main__h1 {
     text-align: center;
-    margin-left: 2rem;
   }
   .main__foto {
     width: 100%;
@@ -356,18 +355,15 @@
     width: 250px;
     height: 300px;
     padding: 1rem;
-    margin-left: 35px;
   }
   .main__matiasuno {
     width: 250px;
     height: 300px;
-    margin-left: 35px;
   }
   .main__matiastres {
     width: 250px;
     height: 300px;
     padding: 1rem;
-    margin-left: 35px;
   }
   .main__nosotros {
     margin-top: 10rem;
@@ -443,8 +439,8 @@
     width: 100%;
   }
   .main__fotonosotros {
-    display: block;
-    height: 650px;
+    display: flex;
+    margin-right: 1.5rem;
   }
   .main__matiasdos {
     width: 250px;
@@ -464,7 +460,6 @@
     margin-left: 35px;
   }
   .main__nosotros {
-    margin-top: 13rem;
     padding: 1rem;
   }
   .main__proyectos--uno {
