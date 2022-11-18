@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -186,12 +185,6 @@
 }
 
 /* CONTACTO */
-.main__imagenFondo {
-  background-image: url("../../imagenes/contacto.jpg");
-  background-size: 700px;
-  background-position: right;
-  background-repeat: no-repeat;
-}
 .main__formulario {
   color: black;
   font-family: "Lato", sans-serif;
@@ -309,10 +302,6 @@
   .main__imagen--tres {
     height: 253px;
   }
-  .main__imagenFondo {
-    background-image: url("../../imagenes/Sin título-2.png");
-    background-size: 200px;
-  }
   .main__h1 {
     margin-top: 1rem;
   }
@@ -320,7 +309,107 @@
     width: 100%;
   }
 }
-/*ESTILOS MOBILE*/
+/*ESTILOS MOBILE 1*/
+@media screen and (max-width: 480px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__logo {
+    width: 120px;
+    height: 120px;
+    margin-right: 13rem;
+  }
+  .header__list {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 0rem;
+  }
+  .header__item {
+    font-size: 1rem;
+    margin: 5px;
+    padding: 0%;
+    text-align: center;
+  }
+  .hero__heading {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .hero__slogan {
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+  .main__h1 {
+    text-align: center;
+    margin-left: 2rem;
+  }
+  .main__foto {
+    width: 100%;
+  }
+  .main__fotonosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10rem;
+  }
+  .main__matiasdos {
+    width: 250px;
+    height: 300px;
+    padding: 1rem;
+    margin-left: 35px;
+  }
+  .main__matiasuno {
+    width: 250px;
+    height: 300px;
+    margin-left: 35px;
+  }
+  .main__matiastres {
+    width: 250px;
+    height: 300px;
+    padding: 1rem;
+    margin-left: 35px;
+  }
+  .main__nosotros {
+    margin-top: 10rem;
+    padding: 1rem;
+  }
+  .main__proyectos--uno {
+    flex-direction: column;
+  }
+  .main__proyectos--dos {
+    flex-direction: column;
+  }
+  .main__proyectos--tres {
+    flex-direction: column;
+  }
+  .main__imagen {
+    width: 100%;
+    height: 500px;
+  }
+  .main__imagen--tres {
+    width: 100%;
+    height: 450px;
+  }
+  .main__block {
+    background-color: white;
+    flex-direction: column;
+  }
+  .main__block--video {
+    width: 315px;
+    height: 400px;
+    margin: 2rem;
+  }
+  .main__fotounder {
+    margin: 1rem;
+  }
+  .main__archivo {
+    font-size: 0.8rem;
+  }
+  .custompage {
+    width: 100%;
+  }
+}
+/*ESTILOS MOBILE 2*/
 @media screen and (max-width: 320px) {
   /*INICIO*/
   .header {
@@ -409,9 +498,6 @@
   }
   .main__archivo {
     font-size: 0.6rem;
-  }
-  .main__imagenFondo {
-    background-image: none;
   }
   .custompage {
     width: 100%;

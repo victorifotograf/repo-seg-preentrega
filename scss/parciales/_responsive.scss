@@ -108,8 +108,131 @@
   
 }
 
+/*ESTILOS MOBILE 1*/
 
-/*ESTILOS MOBILE*/
+@media screen and (max-width: 480px) {
+    
+    .header{
+
+        flex-direction: column;
+        align-items: center;
+        
+        &__logo{
+            width: 120px;
+            height: 120px;
+            margin-right: 13rem;
+        }
+        &__list {
+            display: flex;
+            flex-direction: column-reverse;
+            padding-left: 0rem;
+        }
+        &__item{
+            font-size: 1rem;
+            margin: 5px;
+            padding: 0%;
+            text-align: center;
+        }
+    }
+
+    .hero{
+
+        &__heading{
+            font-size: 1.5rem;
+            text-align: center;
+        }  
+    
+        &__slogan{
+            font-size: 1.5rem;
+            padding: 5px;
+        }   
+    }
+
+    .main{
+
+        &__h1{
+            text-align: center;
+            margin-left: 2rem;
+        }
+
+        &__foto{
+            width: 100%;
+        }   
+        
+        &__fotonosotros{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 10rem;
+        }
+        &__matiasdos{
+            width: 250px;
+            height: 300px;
+            padding: 1rem;
+            margin-left: 35px;
+        }
+        &__matiasuno{
+            width: 250px;
+            height: 300px;
+            margin-left: 35px;
+        }
+        &__matiastres{
+            width: 250px;
+            height: 300px;
+            padding: 1rem;
+            margin-left: 35px;
+        }
+        &__nosotros{
+            margin-top: 10rem;
+            padding: 1rem;
+        }
+    
+        &__proyectos--uno{
+            flex-direction: column;
+        }
+        &__proyectos--dos{
+            flex-direction: column;
+        }
+        &__proyectos--tres{
+            flex-direction: column;
+        }
+        &__imagen{
+            width: 100%;
+            height: 500px;
+        }
+        &__imagen--tres{
+            width: 100%;
+            height: 450px;
+        }  
+        
+        &__block{
+            background-color: white;
+            flex-direction: column; 
+        }
+    
+        &__block--video{
+            width: 315px;
+            height: 400px;
+            margin: 2rem;
+            }    
+        
+         &__fotounder{
+            margin: 1rem;
+            }
+    
+        &__archivo{
+            font-size: 0.8rem;
+        }    
+    
+    }
+    
+    .custompage{
+        width: 100%;
+    }
+
+}
+
+/*ESTILOS MOBILE 2*/
 
 @media screen and (max-width: 320px) {
     
